@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--网站工程学院    高级程序设计   1505E   邵美琦   8：21-->
+<div class="wrap">
+    <header>
+        <ul>
+            <li class="bg">未使用</li>
+            <li>已使用</li>
+            <li>已过期</li>
+        </ul>
+    </header>
+</div>
+<script src="js/jquery.js"></script>
+<script>
+    <!--网站工程学院   高级程序设计   1505E   邵美琦   8:36-->
+    $("li").on("click",function(){
+       $(this).addClass("bg").siblings().removeClass("bg")
+    })
+</script>
+</body>
+</html>
